@@ -6,3 +6,5 @@
 /.vs
 /bin/Release
 /obj
+/bin/Debug/net452
+/bin/Debug
