@@ -18,7 +18,7 @@
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
     <Description>Extends ADONetHelper library to Firebird</Description>
-    <PackageReleaseNotes>Updating to ADONetHelper 3.2.1 and FirebirdSql.Data.FirebirdClient 6.6.0</PackageReleaseNotes>
+    <PackageReleaseNotes>FirebirdSql.Data.FirebirdClient 6.6.0</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Firebird</AssemblyName>
     <RootNamespace>ADONetHelper.Firebird</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Firebird.xml</DocumentationFile>
