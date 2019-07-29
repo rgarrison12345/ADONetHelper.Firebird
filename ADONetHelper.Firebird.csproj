@@ -7,7 +7,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.Firebird.git</RepositoryUrl>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.6.2</Version>
+    <Version>1.6.3</Version>
     <PackageTags>Firebird FirebirdSql.Data.FirebirdClient ORM ADO.NET ADO SQL .NET Database RDBMS Generic DAL ANSI</PackageTags>
     <Copyright>Copyright © Robert Garrison 2019</Copyright>
     <Authors>Robert Garrison</Authors>
@@ -18,7 +18,7 @@
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
     <Description>Extends ADONetHelper library to Firebird</Description>
-    <PackageReleaseNotes>FirebirdSql.Data.FirebirdClient 6.6.0</PackageReleaseNotes>
+    <PackageReleaseNotes>FirebirdSql.Data.FirebirdClient 6.7.0 and ADONetHelper 3.3.0</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Firebird</AssemblyName>
     <RootNamespace>ADONetHelper.Firebird</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Firebird.xml</DocumentationFile>
@@ -29,8 +29,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
-    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="6.6.0" />
-    <PackageReference Include="ADONetHelper" version="3.2.1" />
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="6.7.0" />
+    <PackageReference Include="ADONetHelper" version="3.3.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <DebugSymbols>true</DebugSymbols>
