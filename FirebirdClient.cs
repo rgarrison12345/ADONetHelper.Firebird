@@ -1,6 +1,6 @@
 ﻿#region Licenses
 /*MIT License
-Copyright(c) 2018
+Copyright(c) 2020
 Robert Garrison
 
 Permission Is hereby granted, free Of charge, To any person obtaining a copy
@@ -28,6 +28,7 @@ using FirebirdSql.Data.Isql;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using ADONetHelper.Core;
 #endregion
 
 namespace ADONetHelper.Firebird
